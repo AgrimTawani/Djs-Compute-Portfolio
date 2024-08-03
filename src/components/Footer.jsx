@@ -15,7 +15,7 @@ const Footer = () => {
                         <h3 className="text-xl font-bold mb-2 -mt-[70px]">Follow Me</h3>
                         <div className="flex space-x-4">
                             <a href="https://www.linkedin.com/in/agrim-tawani-227502295/" className="text-white hover:text-gray-400 hover:cursor-pointer">
-                                <FaLinkedin size={24} />
+                                <FaLinkedin size={24} href="https://www.linkedin.com/in/agrim-tawani-227502295/"/>
                             </a>
                             <a href="https://github.com/AgrimTawani" className="text-white hover:text-gray-400  hover:cursor-pointer">
                                 <FaGithub size={24} />
