@@ -14,13 +14,13 @@ const Footer = () => {
                     <div className="flex flex-col items-center pr-[10%] mb-4 md:mb-0">
                         <h3 className="text-xl font-bold mb-2 -mt-[70px]">Follow Me</h3>
                         <div className="flex space-x-4">
-                            <a href="https://www.linkedin.com/in/agrim-tawani-227502295/" className="text-white hover:text-gray-400">
+                            <a href="https://www.linkedin.com/in/agrim-tawani-227502295/" className="text-white hover:text-gray-400 hover:cursor-pointer">
                                 <FaLinkedin size={24} />
                             </a>
-                            <a href="https://github.com/AgrimTawani" className="text-white hover:text-gray-400">
+                            <a href="https://github.com/AgrimTawani" className="text-white hover:text-gray-400  hover:cursor-pointer">
                                 <FaGithub size={24} />
                             </a>
-                            <a href="https://x.com/agrim_tawani" className="text-white hover:text-gray-400">
+                            <a href="https://x.com/agrim_tawani" className="text-white hover:text-gray-400  hover:cursor-pointer">
                                 <FaTwitter size={24} />
                             </a>
                         </div>
