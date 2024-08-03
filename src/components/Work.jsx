@@ -5,7 +5,7 @@ import { FaJs, FaCss3, FaReact } from 'react-icons/fa';
 import { useRef } from 'react';
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { download, Currency, hangman } from '../assets';
+import { download, Currency, hangman, Doc} from '../assets';
 
 const Work = () => {
 
@@ -93,7 +93,7 @@ const Work = () => {
                 >
                     <h3 className="vertical-timeline-element-title text-lg text-black font-bold">Doctor Appointment</h3>
                     <h4 className="vertical-timeline-element-subtitle text-black">Reactjs project</h4>
-                    <img src={hangman} className='my-2 rounded-xl'/>
+                    <img src={Doc} className='my-2 rounded-xl'/>
                     <p className='text-black'>This is an intermediate project and dables with complex react concepts, like Routes, responsiveness, etc.</p>
                 </VerticalTimelineElement>
 
