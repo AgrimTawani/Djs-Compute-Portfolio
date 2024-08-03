@@ -18,7 +18,7 @@ const Work = () => {
                 opacity: 1, 
                 y: 0, 
                 duration: 2, 
-                delay: 200,
+                delay: 2,
                 stagger: 0.1
             }
         );
